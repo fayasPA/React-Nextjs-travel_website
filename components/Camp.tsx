@@ -27,7 +27,7 @@ const CampSite = ({backgroundImage, title, subtitle, peopleJoined}: CampProps) =
               <Image className='inline-block h-10 w-10 rounded-full' src={url} key={url} alt="person" width={52} height={52} />
             ))}
           </span>
-            <h4 className='regular-50 text-white'>{peopleJoined}</h4>
+            {/* <h4 className='regular-50 text-white'>{peopleJoined}</h4> */}
         </div>
       </div>
     </div>
